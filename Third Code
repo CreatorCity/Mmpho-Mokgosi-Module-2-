@@ -1,0 +1,23 @@
+void main() {
+  var objApp = new App();
+  objApp.NameOfApp = "Takealot App";
+  objApp.Category = "Online Shopping";
+  objApp.Developer = "Takealot Online (pty) Ltd";
+  objApp.YearWon = "2021";
+
+  objApp.showAppInfo();
+}
+
+class App {
+  var NameOfApp;
+  var Category;
+  var Developer;
+  var YearWon;
+
+  showAppInfo() {
+    print("The name of the app: $NameOfApp");
+    print("The Category of the App: $Category");
+    print("The Developer of the App: $Developer");
+    print("The Year it won: $YearWon");
+  }
+}
