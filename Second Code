@@ -1,0 +1,37 @@
+void main() {
+  var allwinningapps = [
+    "FNB App",
+    "Discovery Health ID",
+    "RapidTargets",
+    "Plascon",
+    "bookly",
+    "Dstv",
+    "Netbank",
+    "PriceCheck",
+    "Supersports",
+    "DStv Now",
+    "ikhokha.com",
+    "hearZA",
+    "OrderIn",
+    "PicknPay",
+    "shyft",
+    "Zulzi",
+    "cowa-bunga",
+    "besmarta",
+    "Digger",
+    "HYDRA",
+    "My Preganant journey",
+    "CheckersSixty60",
+    "EasyEquities",
+    "GreenFingers Mobile",
+    "Guardianhealth",
+    "takealot.com",
+    "SiSa",
+    "murimi"
+  ];
+  allwinningapps.sort();
+  print("All winning app from 2012 are: $allwinningapps");
+  print("Winning App of 2017: PicknPay and Winning App of 2018: cowa-bunga ");
+  print(allwinningapps.length);
+}
+
