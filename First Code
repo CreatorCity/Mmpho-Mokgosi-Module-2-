@@ -1,0 +1,7 @@
+void main()
+{
+var name ="Mpho";
+var city = "Rustenburg";
+var favoriteApp = "Takelot App";
+print('My name is $name and My city is $city, and My favorite App is $favoriteApp');
+}
